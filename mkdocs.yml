@@ -1,1 +1,27 @@
 site_name: Test Iaso docs
+theme:
+  name: readthedocs
+  # highlightjs: true
+plugins:
+    - search
+    - mermaid2
+nav:
+  - Home: index.md
+  - How to:
+      - Deploy: how_to_deploy.md
+      - Use the APIs: how_to_use_iaso_s_api.md
+      - Contribute: contributing.md
+
+  - References:
+    - Development environment: development_environment.md
+    - Data model glossary: data_model_glossary.md
+    - Enketo: enketo.md
+    - Audit: audit.md
+    - Front-end assets: front_end_assets.md
+    - Vector control: vector_control.md
+  - MORE:
+    - About Iaso: about_iaso.md
+    - Full README: iaso_readme_full.md
+    - Source code: https://github.com/BLSQ/iaso
+  - FAQ: 
+      - That one question: FAQ.md
