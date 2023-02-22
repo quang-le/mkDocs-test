@@ -1,7 +1,7 @@
 site_name: Test Iaso docs
 theme:
   name: readthedocs
-  # highlightjs: true
+  highlightjs: true
 plugins:
     - search
     - mermaid2
