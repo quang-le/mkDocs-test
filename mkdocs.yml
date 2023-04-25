@@ -1,10 +1,35 @@
 site_name: Test Iaso docs
+repo_url: https://github.com/quang-le/mkDocs-test
+edit_uri: edit/main/docs/
 theme:
   name: readthedocs
+  navigation_depth: 6
   highlightjs: true
+  theme_dir: overrides
 plugins:
+    - awesome-pages:
+        collapse_single_pages: true
     - search
     - mermaid2
+    - i18n:
+        docs_structure: suffix
+        default_language: en
+        languages:
+          default: Default (EN)
+          en:
+            name: English
+            site_name: Iaso docs in English
+          fr: 
+            name: Français
+            site_name: Page en français
+        nav_translations:
+          fr:
+            Home: Accueil
+            How to: Guides
+            Deploy: Déployer
+            MORE: PLUS
+            FAQ: POUF
+            Audit: Inspection
 nav:
   - Home: index.md
   - How to:
