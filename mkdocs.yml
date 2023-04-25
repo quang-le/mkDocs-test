@@ -1,6 +1,9 @@
 site_name: Test Iaso docs
+# Add Edit on Github button
 repo_url: https://github.com/quang-le/mkDocs-test
 edit_uri: edit/main/docs/
+extra_javascript: 
+  - button.js
 theme:
   name: readthedocs
   navigation_depth: 6
