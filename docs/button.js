@@ -1,6 +1,7 @@
 const footer = document.getElementsByTagName("footer")[0]
 const button = document.createElement("button")
-button.id = "toggleLanguage"
+button.classList = ["btn btn-neutral"]
+button.id="toggleLanguage"
 const pathname = window.location.pathname
 console.log("PATH", pathname)
 button.textContent = pathname === '/fr/' ? "English" : "Français"

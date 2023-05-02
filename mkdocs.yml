@@ -4,6 +4,7 @@ repo_url: https://github.com/quang-le/mkDocs-test
 edit_uri: edit/main/docs/
 extra_javascript: 
   - button.js
+extra_css: [button.css]
 theme:
   name: readthedocs
   navigation_depth: 6
