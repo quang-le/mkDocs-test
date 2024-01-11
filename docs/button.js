@@ -9,7 +9,7 @@ console.log("PATH", pathname)
 button.textContent = isFR ? "English" : "Français"
 button.onclick = ()=>{
     if (isFR){
-        const newPathname = pathname.replace('/fr/', '/en/')
+        const newPathname = pathname.replace('/fr/', '/')
         const newLocation = window.location.href.replace(pathname,newPathname)
         window.location.replace(newLocation) 
     } else if (isEN){
@@ -29,3 +29,15 @@ button.onclick = ()=>{
 }
 
 footer.appendChild(button)
+
+const previous = document.getElementsByClassName("btn btn-neutral float-left")[0]
+const next = document.getElementsByClassName("btn btn-neutral float-right")[0]
+
+if(isFR){
+    console.log("hello world")
+    previous.innerText="Précédent"
+    // next.textContent="Suivant"
+} else {
+    previous.textContent="Previous"
+    next.textContent="Next"
+}

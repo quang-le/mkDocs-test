@@ -19,23 +19,25 @@ plugins:
         docs_structure: suffix
         default_language: en
         languages:
-          default: Default (EN)
-          en:
+          - locale: en
+            default: true
             name: English
             site_name: Iaso docs in English
-          fr: 
+            build: true
+          - locale: fr 
             name: Français
             site_name: Page en français
-        nav_translations:
-          fr:
-            Home: Accueil
-            How to: Guides
-            Deploy: Déployer
-            MORE: PLUS
-            FAQ: POUF
-            Audit: Inspection
-            TEST: CACA
-    - page-to-pdf
+            # build: true
+        # nav_translations:
+        #   fr:
+        #     Home: Accueil
+        #     How to: Guides
+        #     Deploy: Déployer
+        #     MORE: PLUS
+        #     FAQ: POUF
+        #     Audit: Inspection
+        #     TEST: CACA
+    # - page-to-pdf
 nav:
   - Home: index.md
   - How to:
@@ -50,6 +52,7 @@ nav:
     - Audit: audit.md
     - Front-end assets: front_end_assets.md
     - Vector control: vector_control.md
+    - FAQ: ./FAQ/index.md
   - MORE:
     - About Iaso: about_iaso.md
     - Full README: iaso_readme_full.md

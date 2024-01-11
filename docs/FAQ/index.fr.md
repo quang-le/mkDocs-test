@@ -1,3 +1,5 @@
+FRENCH VERSION
+
 * _How do I configure Iaso in a way that mobile users cannot create new OUs ? And/or is it possible to limit OU creation to certain OU types. Ex: mobile users can create the types at the bottom of the hierarchy (FOSA, village), but not at the top (Region -> Aire sanitaire) ?_
 
 It’s in the org unit type configuration: you specify what is allowed under a given org unit type in the "sub org unit types" selector.
