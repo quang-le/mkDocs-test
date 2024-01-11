@@ -33,3 +33,5 @@ The main tasks it allows accomplishing are:
     [GeoPackage](https://www.geopackage.org/) or through an api.
 
 [Video presentation of IASO](https://fosdem.org/2021/schedule/event/iaso/) at Fosdem 2021, with slides.
+
+<img src="./img/favicon.png"/>
