@@ -29,3 +29,4 @@ soupsieve==2.4
 urllib3==1.26.14
 watchdog==2.2.1
 zipp==3.14.0
+mkdocs-awesome-pages-plugin==2.9.2
