@@ -11,8 +11,8 @@ theme:
   highlightjs: true
   theme_dir: overrides
 plugins:
-    # - awesome-pages:
-    #     collapse_single_pages: true
+    - awesome-pages:
+        collapse_single_pages: true
     - search
     - mermaid2
     # - i18n:
