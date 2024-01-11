@@ -15,28 +15,28 @@ plugins:
         collapse_single_pages: true
     - search
     - mermaid2
-    # - i18n:
-    #     docs_structure: suffix
-    #     default_language: en
-    #     languages:
-    #       - locale: en
-    #         default: true
-    #         name: English
-    #         site_name: Iaso docs in English
-    #         build: true
-    #       - locale: fr 
-    #         name: Français
-    #         site_name: Page en français
-            # build: true
-        # nav_translations:
-        #   fr:
-        #     Home: Accueil
-        #     How to: Guides
-        #     Deploy: Déployer
-        #     MORE: PLUS
-        #     FAQ: POUF
-        #     Audit: Inspection
-        #     TEST: CACA
+    - i18n:
+        docs_structure: suffix
+        default_language: en
+        languages:
+          - locale: en
+            default: true
+            name: English
+            site_name: Iaso docs in English
+            build: true
+          - locale: fr 
+            name: Français
+            site_name: Page en français
+            build: true
+        nav_translations:
+          fr:
+            Home: Accueil
+            How to: Guides
+            Deploy: Déployer
+            MORE: PLUS
+            FAQ: POUF
+            Audit: Inspection
+            TEST: CACA
     # - page-to-pdf
 nav:
   - Home: index.md
