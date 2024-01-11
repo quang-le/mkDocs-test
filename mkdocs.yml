@@ -11,22 +11,22 @@ theme:
   highlightjs: true
   theme_dir: overrides
 plugins:
-    - awesome-pages:
-        collapse_single_pages: true
+    # - awesome-pages:
+    #     collapse_single_pages: true
     - search
     - mermaid2
-    - i18n:
-        docs_structure: suffix
-        default_language: en
-        languages:
-          - locale: en
-            default: true
-            name: English
-            site_name: Iaso docs in English
-            build: true
-          - locale: fr 
-            name: Français
-            site_name: Page en français
+    # - i18n:
+    #     docs_structure: suffix
+    #     default_language: en
+    #     languages:
+    #       - locale: en
+    #         default: true
+    #         name: English
+    #         site_name: Iaso docs in English
+    #         build: true
+    #       - locale: fr 
+    #         name: Français
+    #         site_name: Page en français
             # build: true
         # nav_translations:
         #   fr:
